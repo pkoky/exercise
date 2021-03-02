@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 8px;
+}
+
+h1 {
+  color: #ffa500;
+  margin: 20px 0;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+p {
+  margin: 16px 0;
+}
