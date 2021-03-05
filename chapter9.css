@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,80 +7,63 @@
 header {
   width: 100%;
   height: 50px;
-  background-color: #FF9A4B;
+  background-color: #ff9a4b;
 }
 
 main {
   width: 960px;
   margin: 50px auto;
   display: flex;
-  justify-content: center;
 }
 
 .box {
   width: 300px;
-  height: 350px;
-  margin: 50px 30px 50px 0;
+  margin-right: 30px;
+  padding: 10px;
   position: relative;
-  background-color: #EEE;
+  background-color: #eee;
 }
 
 .box:last-child {
   margin-right: 0;
 }
 
-
-
-
-span {
-  position: absolute;
-  background-color: #FF9A4B;
-  color: white;
-}
-
 .image1 {
-  width: auto;
   height: 150px;
   background-image: url(img/flow01.png);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
-  margin: 10px 10px 15px 10px;
-
 }
 
 .image2 {
-  width: auto;
   height: 150px;
   background-image: url(img/flow02.png);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
-  margin: 10px 10px 15px 10px;
 }
 
 .image3 {
-  width: auto;
   height: 150px;
   background-image: url(img/flow03.png);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
-  margin: 10px 10px 15px 10px;
 }
 
-.box-text {
-  margin: 0 10px;
+.step-num {
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4a;
+  color: #fff;
 }
 
-.box-title {
-  padding-bottom: 5px;
+.title {
+  margin: 15px 0 5px;
 }
-
-p {
-  font-size: 14px;
-}
-
 
 footer {
   width: 100%;
   height: 50px;
-  background-color: #AAAAAA;
+  background-color: #aaaaaa;
 }
