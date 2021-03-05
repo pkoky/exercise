@@ -43,15 +43,8 @@ main {
   margin: 0;
 }
 
-
-.image-item:nth-child(1) {
-  background-color: orange;
-}
-
-.image-item:nth-child(5) {
-  background-color: orange;
-}
-
+.image-item:nth-child(1),
+.image-item:nth-child(5),
 .image-item:nth-child(9) {
   background-color: orange;
 }
